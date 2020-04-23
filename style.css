@@ -1,0 +1,83 @@
+body {
+  font-family: Lato, Arial, Helvetica, sans-serif;
+    color: #334669;
+    background-color:#E4F0FA; 
+}
+
+.greeting{
+    color: #F56360;
+}
+
+img {
+  border-radius: 10%;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.5), -5px -5px 5px   rgba(255,255,255,0.6);
+    object-fit: cover;
+    width:300px;
+    height:300px;
+}
+
+.recipe-recom {
+    box-shadow: -5px -5px 5px   rgba(255,255,255,0.6);
+    padding: 20px;   
+    border-radius: 10%;
+min-width:60%;
+}
+
+.column {
+  float: left;
+  width: 15%;
+  padding: 3px;
+}
+
+.column img {
+width: 60px;
+height: 60px;
+}
+
+hr {
+    border-top: 1px solid #6E81A0;
+    width:40%;
+}
+
+
+.discovery-search{
+    width:40%;
+    border-radius:50%;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.5), -5px -5px 5px   rgba(255,255,255,0.6);
+    
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 20%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  margin-left: 10px;
+margin-right: 10px;
+  vertical-align: middle;
+}
+
+.gallery img{
+    height: 120px;
+    width: auto;
+    margin-left: 10px;
+    margin-right:10px;
+}
+
+.profile{
+    float:left;
+    height:60px;
+    width: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
