@@ -9,9 +9,64 @@
 <link rel="stylesheet" href="style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
+
+      </script>
   </head>
     <body>
+<!-- Button to Open the Modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#SignIn">
+  Sign In
+</button>
+
+<!-- The Modal -->
+<div class="modal" id="SignIn">
+  <div class="modal-dialog modal-sm modal-dialog-centered">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Blue Velvet</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+  <form>
+    <div class="row">
+      <div class="col">
+        <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+        <br>
+      </div>
+      </div>
+          <div class="row">
+      <div class="col">
+        <input type="password" class="form-control" placeholder="Enter password" name="pswd">
+      </div>
+      </div>
+    </div>
+  </form>
+        
+<button type="button" class="signin btn btn-primary" data-toggle="modal" data-target="SIGN IN">  Sign In
+</button>
+    
+    <p class="text-center">Or use</p>
+        <button type="button" class="google btn btn-primary" data-toggle="modal" data-target="googleapi">  <img src="https://www.google.ee/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+</button>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+        
     
 <div class="container-sm pt-5 align-items-center"><p class="rounded-pill text-center" id="recommend-message">We recommend you this for lunch :)</p>
 </div>
@@ -41,7 +96,7 @@
 </div>
 
     
-    <nav class="nav fixed-bottom navbar-expand-sm justify-content-center">
+    <nav class="bottom nav fixed-bottom navbar-expand-sm justify-content-center">
   <ul class="nav">
     <li class="nav-item">
       <a class="nav-link" href="search.html"><img src="search.png"></a>
@@ -54,5 +109,15 @@
     </li>
   </ul>
 </nav>
+    
+    <script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
     </body>
 </html>
