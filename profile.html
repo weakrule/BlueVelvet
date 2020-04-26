@@ -22,13 +22,43 @@
         
     <div class="container-sm">
     <ul class="nav nav-tabs navbar-expand-sm ">
-  <li class="active"><a data-toggle="tab" class="tab" href="#recipes-tab">Add recipe</a></li>
+  <li class="active"><a data-toggle="tab" class="tab" href="#recipes-tab">My recipes</a></li>
   <li><a data-toggle="tab" class="tab" href="#food-tab">Done recipes</a></li>
 </ul>
 
 <div class="tab-content">
   <div id="recipes-tab" class="tab-pane fade in active">
-    <p class="text-center">You can <a href="add-recipe.html">add any recipe</a></p>
+    <p>You can <a href="add-recipe.html">add any recipe</a></p>
+    <!-- Button to Open the Modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Instructions">
+  How to add recipes?
+</button>
+
+<!-- Instructions Modal -->
+<div class="modal" id="Instructions">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg modal-dialog-centered">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">How to add recipes?</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        Will update with pictures of how to add recipes
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>  
+      <hr/>
   </div>
   <div id="food-tab" class="tab-pane fade">
     <div class="container-sm">        
