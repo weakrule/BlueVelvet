@@ -17,31 +17,66 @@
   </head>
     <body>
         
-        <div class="header">
-  <h1>Header</h1>
+        <form action="/action_page.php">
+  <div class="form-group" style="margin-top: 10px;">
+    <label for="recipe-name">Recipe name:</label>
+    <input type="text" class="form-control" placeholder=" " id="recipe-name">
+  </div>
+            
+<div class="input-group">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="inputGroupFileAddon01">Cover image</span>
+  </div>
+  <div class="custom-file">
+    <input type="file" class="custom-file-input" id="inputGroupFile01"
+      aria-describedby="inputGroupFileAddon01">
+    <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+  </div>
 </div>
-        
-        <div class="title-box"><h2>Recipe Name</h2>
-            <p>By Name</p>
-        </div>
-        <div style="margin-top: 10px;">
-     <ul class="instructions nav nav-pills mb-3" id="pills-tab" role="tablist">
-  <li class="nav-item">
-    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Step 1</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Step 2</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
-  </li>
-</ul>
-<div class="tab-content" id="pills-tabContent">
-  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"><h3 class="ingredients rounded-pill">Ingredients</h3></div>
-  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
-  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+            
+    <div class="form-group">
+  <label for="ingredient">Ingredients:</label>
+  <textarea class="form-control" rows="3" id="ingredient" placeholder="1 tsp sugar, 1 cup water..."></textarea>
+</div>
+            
+    <div class="form-group">
+  <label for="step1">Step1:</label>
+  <textarea class="form-control" rows="3" id="ingredient" placeholder="Peel potatoes. Bring water to boil."></textarea>
+</div>
+<div class="input-group">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="inputGroupFileAddon01">Upload image</span>
+  </div>
+  <div class="custom-file">
+    <input type="file" class="custom-file-input" id="inputGroupFile01"
+      aria-describedby="inputGroupFileAddon01">
+    <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+  </div>
+</div>            
+            
+            <p>+ Add step</p>
+            
+<h4>Best for when you're...</h4>
+<div class="form-check">
+  <label class="form-check-label">
+    <input type="checkbox" class="form-check-input" value="">Sad
+  </label>
+</div>
+<div class="form-check">
+  <label class="form-check-label">
+    <input type="checkbox" class="form-check-input" value="">Depressed
+  </label>
+</div>
+<div class="form-check">
+  <label class="form-check-label">
+    <input type="checkbox" class="form-check-input" value="" >Happy
+  </label>
 </div>
 
+
+
+  <button type="submit" class="btn btn-primary">Add recipe!</button>
+</form>
         
     <nav class="bottom nav fixed-bottom navbar-expand-sm justify-content-center">
   <ul class="nav">
@@ -56,7 +91,7 @@
     </li>
   </ul>
 </nav>
-        </div>
+
 
     </body>
 </html>
