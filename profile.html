@@ -47,19 +47,21 @@
   <!-- Tab panes -->
   <div class="tab-content">
     <div id="mood" class="container tab-pane active"><br>
-      <h3>How do you feel right now?</h3>
+      <h3 class="blue-text">How do you feel right now?</h3>
 <div class="form-group">
   <label for="sel1"></label>
   <select class="form-control" id="sel1">
-    <option>Happy</option>
+          <option>Super High</option>
+      <option>Happy</option>
     <option>Sad</option>
-    <option>Depressed</option>
+          <option>Frustrated</option>
     <option>Just broke up</option>
+      <option>Depressed</option>
   </select>
 </div>
     </div>
     <div id="favfood" class="container tab-pane fade"><br>
-      <h3>What kind of food do you like?</h3>
+      <h3 class="blue-text">What kind of food do you like?</h3>
       <div class="form-check-inline">
   <label class="form-check-label">
     <input type="checkbox" class="form-check-input" value="">Fruits
@@ -83,7 +85,7 @@
 </div> 
     </div>
     <div id="info" class="container tab-pane fade"><br>
-      <h3>Profile</h3>
+      <h3 class="blue-text">Profile</h3>
         <div class="input-group">
   <div class="input-group-prepend">
     <span class="input-group-text" id="inputGroupFileAddon01">Update photo</span>
@@ -124,7 +126,7 @@
       <div class="modal-footer">
               <h5>Complete profile later</h5>
         <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>         
-          <button type="button" class="btn" data-dismiss="modal">Submit</button>
+          <button type="button" class="btn submit" data-dismiss="modal">Submit</button>
       </div>
 
     </div>
@@ -135,8 +137,8 @@
         
     <div class="container-sm">
     <ul class="nav nav-tabs navbar-expand-sm ">
-  <li class="active"><a data-toggle="tab" class="tab" href="#recipes-tab">My recipes</a></li>
-  <li><a data-toggle="tab" class="tab" href="#food-tab">Done recipes</a></li>
+  <li class="active"><a data-toggle="tab" class="tab" href="#recipes-tab"><img src="Icons/recipe.svg"></a></li>
+  <li><a data-toggle="tab" class="tab" href="#food-tab"><img src="Icons/flag.svg"></a></li>
 </ul>
 
 <div class="tab-content">
@@ -209,16 +211,16 @@
   
 </div>
     </div>
-    <nav class="nav fixed-bottom navbar-expand-sm justify-content-center">
+    <nav class="bottom nav fixed-bottom navbar-expand-sm justify-content-center">
   <ul class="nav">
     <li class="nav-item">
-      <a class="nav-link" href="search.html"><img src="search.png"></a>
+      <a class="nav-link" href="search.html"><img src="Icons/Search.svg"></a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="index.html"><img src="home.png"></a>
+      <a class="nav-link" href="index.html"><img src="Icons/Home.svg"></a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="profile.html"><img src="user.png"></a>
+      <a class="nav-link" href="profile.html"><img src="Icons/User.svg"></a>
     </li>
   </ul>
 </nav>

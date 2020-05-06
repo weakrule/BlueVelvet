@@ -6,27 +6,63 @@ body {
 background-color: #5CC6D0;   
 border: none;
 }
+ a {
+    color:#C00A7C;
+}
 
+ a:hover {
+    color:#C00A7C;
+}
 .btn:hover{
 border: 2px;
 border-color: #5CC6D0;
 
 }
 
-.signin{
-    background-color: cadetblue;
+.signinbtn{
+    background-color: #009688;
     border-radius: 0px;
+    box-shadow: 0px 8px 8px 1px   rgba(0,0,0,0.2);
+    
 }
 
+.purple-text{
+    color:#C00A7C;
+}
+
+.blue-text{
+    color:#51A8B1;
+}
+
+.submit{
+    background-color:#C00A7C;
+    color:white;
+}
 .google{
     background-color: white;
 }
 
+.create-r{
+    background-color:#F028A7;
+    color:white;
+    padding-right:5px;
+    padding-bottom:5px;
+    padding-top: 10px;
+    padding-left:35px;
+    border-bottom-left-radius: 90%;
+        font-size:0.7em;
+}
+
+
 #recommend-message{
     background-color: #5CC6D0;
+    font-size: 0.8em;
     margin-bottom: 10%;
     padding:5px;
     color:white;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    width:50%;
 }
 
 .emotion{
@@ -37,10 +73,12 @@ border-color: #5CC6D0;
 .card{
     margin-top:50px;
     width:60%;
-	backrgound-color:#F0F0F0;
+	background-color:#F0F0F0;
+    border: 0px;
 }
 .card h4{
     padding:5px;
+    margin-top: 10px;
     font-size: 1em;
 }
 .card img{
@@ -88,9 +126,13 @@ padding-left:15px;
 }
 
 
-
+.tab img{
+    height:20px;
+    width: auto;
+    margin:10px;
+}
 .nav {
-    background-color: #51A8B1;
+    background-color: #C00A7C;
     color: white;
 }
 
@@ -99,6 +141,8 @@ padding-left:15px;
     height:120px;
     width:120px;
     margin-right:10px;
+    border-width:2px;
+    border-color:#5CC6D0;
 }
 
 #userbar{
